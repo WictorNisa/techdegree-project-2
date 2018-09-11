@@ -168,8 +168,32 @@ h1{
 
 /*--------MEDIA QUERIES--------*/
 
-@media screen and (min-width: 768px){
+@media (min-width: 768px){
   .main-header ul {
     display: inline-block;
   }
+  h1 {
+    text-align: left;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+  .main-header ul {
+    display: inline-block;
+  }
+
 }

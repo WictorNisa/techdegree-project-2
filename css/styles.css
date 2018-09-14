@@ -6,6 +6,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+
 }
 
 /*--------HEADER-------- */
@@ -193,11 +194,13 @@ h1{
   .main-nav li {
     display: inline-block;
     text-align: inherit;
+    margin-right: 1em;
   }
   .wrapper h1{
-    margin-left: 1em;
+    margin-left: 1.5em;
     padding-top: 1em;
     margin-top: 6px;
+
   }
   .main-nav ul li{
     border: none;
@@ -211,20 +214,56 @@ h1{
 
   .header-img {
     display: block;
-    width: 30%;
-    margin: 0;
+    width: 70%;
+    margin-top: 1.3em;
+    margin-right: 3.5em;
+    margin-bottom: 3.5em;
   }
 
   .right-col {
     float: right;
+    width: 45%;
   }
 
   .left-col {
     float: left;
+    width: 50%;
   }
 
   .left-col p {
-    margin: 0;
     padding: 0;
+  }
+
+  .wrapper p {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.5625em;
+    margin-top: 0.8em;
+  }
+
+
+  /*--------COLUMS--------*/
+
+  .content {
+    width: 90%;
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .col {
+    float: left;
+    width: 33%;
+  }
+  .content h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #7D8491;
+  }
+
+  .content h2:hover {
+    color: #242F40;
+  }
+  .col p {
+    font-size: 1.125em;
   }
 }

@@ -159,6 +159,10 @@ h1{
 
 }
 
+.nav-footer {
+  display: none;
+}
+
 /* CLEARFIX */
 .clearfix::after {
 		content: " ";
@@ -169,10 +173,145 @@ h1{
 
 /*--------MEDIA QUERIES--------*/
 
-@media (min-width: 769px){
-  h1 {
-    text-align: right;
+@media (min-width: 768px){
+  h1,
+  .main-nav,
+  .main-nav ul,
+  .main-nav li {
+    /* margin-right: 1em; */
+
   }
+  .main-nav ul {
+    text-align: center;
+  }
+  .main-nav li {
+    display: inline;
+
+  }
+  .wrapper h1{
+    padding-top: 1em;
+    text-align: center;
+
+  }
+  .main-nav ul li{
+    border: none;
+    background: #fafafa;
+  }
+  .main-nav{
+    /* float: right; */
+    padding-top: 1em;
+
+  }
+
+  .header-img {
+    display: block;
+    width: 70%;
+    margin-top: 1.3em;
+    margin-right: 3.5em;
+    margin-bottom: 3.5em;
+  }
+
+  .right-col {
+    float: right;
+    width: 45%;
+    margin-top: 1em;
+  }
+
+  .left-col {
+    float: left;
+    width: 55%;
+    margin-top: 1em;
+  }
+
+  .left-col p {
+    padding: 0;
+  }
+
+  .wrapper p {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.1em;
+    margin-top: 0.8em;
+  }
+
+
+  /*--------COLUMS--------*/
+
+  .content {
+    width: 90%;
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .col {
+    float: left;
+    width: 50%;
+  }
+  .content h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #7D8491;
+  }
+
+  .col h2:hover {
+    color: #242F40;
+  }
+  .content p {
+    padding: 0;
+  }
+  /*--------FOOTER--------*/
+
+  .contact-info {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-info p{
+    font-size: 1em;
+    color: grey;
+    text-align: center;
+  }
+
+  .contact-details {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 3em;
+  }
+
+  #phone,
+  #email {
+    color: grey;
+  }
+
+  .foot-border {
+    border-top: 1px solid grey;
+  }
+
+  #back-top {
+    display: none;
+  }
+
+  .nav-footer {
+    display: inline-block;
+    list-style: none;
+    float: right;
+  }
+
+  .nav-footer li {
+    float: right;
+  }
+
+  .nav-footer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2em;
+    margin-right: 1em;
+  }
+
 }
 
 

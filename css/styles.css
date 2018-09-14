@@ -119,14 +119,14 @@ h1{
 
 }
 
-.footer li{
+.contact-details li{
   display: inline-block;
   list-style: none;
   text-align: center;
   margin-top: 20px;
 }
 
-.footer ul{
+.contact-details ul{
   margin-left: 1em;
   margin-right: 1em;
   padding-bottom: 3em;
@@ -146,7 +146,7 @@ h1{
   font-size: 1em;
 
 }
-.main-footer a{
+#back-top {
   margin-left: 8em;
   text-decoration: none;
   color: black;
@@ -260,7 +260,7 @@ h1{
     color: #7D8491;
   }
 
-  .content h2:hover {
+  .col h2:hover {
     color: #242F40;
   }
   .col p {
@@ -281,12 +281,13 @@ h1{
     text-align: center;
   }
 
-  .footer ul{
+  .contact-details {
     text-align: center;
     font-size: 18px;
     padding-left: 0;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 3em;
   }
 
   #phone,
@@ -297,4 +298,26 @@ h1{
   .foot-border {
     border-top: 1px solid grey;
   }
+
+  #back-top {
+    display: none;
+  }
+
+  .nav-footer {
+    display: inline-block;
+    list-style: none;
+    float: right;
+  }
+
+  .nav-footer li {
+    float: right;
+  }
+
+  .nav-footer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2em;
+    margin-right: 1em;
+  }
+
 }
